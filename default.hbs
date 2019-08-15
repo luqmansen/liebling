@@ -12,6 +12,7 @@
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/app.css"}}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" media="screen" />
 
     {{!-- This #block helper will pull data from the hero partial 
     to inject styles of the hero image to make it responsive --}}
@@ -54,6 +55,7 @@
     <script defer src="{{asset "js/polyfill.js"}}"></script>
     <script defer src="{{asset "js/vendor.js"}}"></script>
     <script defer src="{{asset "js/app.js"}}"></script>
+    <script defer src="{{asset "js/prism.js"}}"></script>
 
     {{!-- The #block helper will pull in data from the #contentFor other template files --}}
     {{{block "scripts"}}}
